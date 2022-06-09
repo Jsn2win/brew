@@ -74,7 +74,7 @@ GEM
       sorbet-runtime
       unparser
     rdiscount (2.2.0.2)
-    regexp_parser (2.4.0)
+    regexp_parser (2.5.0)
     rexml (3.2.5)
     ronn (0.7.3)
       hpricot (>= 0.8.2)
@@ -104,13 +104,13 @@ GEM
     rspec-support (3.11.0)
     rspec-wait (0.0.9)
       rspec (>= 3, < 4)
-    rubocop (1.27.0)
+    rubocop (1.29.1)
       parallel (~> 1.10)
       parser (>= 3.1.0.0)
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 1.8, < 3.0)
-      rexml
-      rubocop-ast (>= 1.16.0, < 2.0)
+      rexml (>= 3.2.5, < 4.0)
+      rubocop-ast (>= 1.17.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 3.0)
     rubocop-ast (1.17.0)
