@@ -75,7 +75,7 @@ GEM
       sorbet-runtime
       unparser
     rdiscount (2.2.0.2)
-    regexp_parser (2.5.0)
+    regexp_parser (2.6.0)
     rexml (3.2.5)
     ronn (0.7.3)
       hpricot (>= 0.8.2)
@@ -117,7 +117,7 @@ GEM
       unicode-display_width (>= 1.4.0, < 3.0)
     rubocop-ast (1.21.0)
       parser (>= 3.1.1.0)
-    rubocop-performance (1.14.3)
+    rubocop-performance (1.15.0)
       rubocop (>= 1.7.0, < 2.0)
       rubocop-ast (>= 0.4.0)
     rubocop-rails (2.15.2)
