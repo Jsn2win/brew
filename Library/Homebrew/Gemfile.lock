@@ -129,7 +129,7 @@ GEM
     rubocop-sorbet (0.6.11)
       rubocop (>= 0.90.0)
     ruby-macho (3.0.0)
-    ruby-progressbar (1.11.0)
+    ruby-progressbar (1.13.0)
     rubyntlm (0.6.3)
     simplecov (0.21.2)
       docile (~> 1.1)
