@@ -1,14 +1,21 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.0.4.3)
+    activesupport (7.1.2)
+      base64
+      bigdecimal
       concurrent-ruby (~> 1.0, >= 1.0.2)
+      connection_pool (>= 2.2.5)
+      drb
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
+      mutex_m
       tzinfo (~> 2.0)
     addressable (2.8.4)
       public_suffix (>= 2.0.2, < 6.0)
     ast (2.4.2)
+    base64 (0.2.0)
+    bigdecimal (3.1.4)
     bindata (2.4.14)
     bootsnap (1.16.0)
       msgpack (~> 1.2)
@@ -21,12 +28,14 @@ GEM
     docile (1.4.0)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
+    drb (2.2.0)
+      ruby2_keywords
     elftools (1.2.0)
       bindata (~> 2)
     hpricot (0.8.6)
     http-cookie (1.0.5)
       domain_name (~> 0.5)
-    i18n (1.12.0)
+    i18n (1.14.1)
       concurrent-ruby (~> 1.0)
     json (2.6.3)
     mechanize (2.9.1)
@@ -48,6 +57,7 @@ GEM
     minitest (5.18.0)
     msgpack (1.6.0)
     mustache (1.1.1)
+    mutex_m (0.2.0)
     net-http-digest_auth (1.4.1)
     net-http-persistent (4.0.2)
       connection_pool (~> 2.2)
@@ -130,6 +140,7 @@ GEM
       rubocop (>= 0.90.0)
     ruby-macho (3.0.0)
     ruby-progressbar (1.13.0)
+    ruby2_keywords (0.0.5)
     rubyntlm (0.6.3)
     simplecov (0.22.0)
       docile (~> 1.1)
