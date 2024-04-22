@@ -113,7 +113,7 @@ GEM
       rspec-core (> 3.3)
     rspec-sorbet (1.9.2)
       sorbet-runtime
-    rspec-support (3.12.1)
+    rspec-support (3.12.2)
     rspec-wait (0.0.9)
       rspec (>= 3, < 4)
     rubocop (1.36.0)
