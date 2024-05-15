@@ -171,7 +171,7 @@ GEM
       spoom
       thor (>= 0.19.2)
       yard-sorbet
-    thor (1.2.1)
+    thor (1.3.1)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unf (0.1.4)
