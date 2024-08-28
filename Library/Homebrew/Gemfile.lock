@@ -86,7 +86,8 @@ GEM
       unparser
     rdiscount (2.2.7.3)
     regexp_parser (2.9.1)
-    rexml (3.2.6)
+    rexml (3.3.0)
+      strscan
     ronn (0.7.3)
       hpricot (>= 0.8.2)
       mustache (>= 0.7.0)
@@ -160,6 +161,7 @@ GEM
       sorbet (>= 0.5.6347)
       sorbet-runtime
       thor (>= 0.19.2)
+    strscan (3.1.0)
     tapioca (0.5.4)
       bundler (>= 1.17.3)
       pry (>= 0.12.2)
